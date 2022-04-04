@@ -20,6 +20,4 @@ class QuotesSpider(scrapy.Spider):
         items['author'] = author
         items['tag'] = tag
 
-        #os.system('rm ScrapyWebCrawler3/TestSpider/TestSpider/items.json')
-
         yield items
